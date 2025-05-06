@@ -29,10 +29,10 @@ p:nth-of-type(2)::before {
     content: '';
 }
 
-p:nth-of-type(2) {
+.true {
     color: limegreen;
 }
 
-div>p:last-child:contains('Offline') {
+.false {
     color: red;
 }
