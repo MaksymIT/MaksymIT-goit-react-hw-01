@@ -7,7 +7,7 @@ export default function FriendListItem({ friends }) {
       {
       friends.map(({avatar, name, isOnline, id}) => (
         <div key={id}><img className='img' src={avatar} alt="Avatar" width="48" />
-           <p className={clsx(isOnline ? styles.true : styles.false)}>
+          <p className={clsx(isOnline ? styles.true : styles.false)}>
             {isOnline ? 'Online' : 'Offline'}
           </p>
           <p>{name}</p>
